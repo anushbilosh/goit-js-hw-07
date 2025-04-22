@@ -137,6 +137,31 @@ font-size: 16px;
 margin-top: 16px;
 }
 .login-btn:hover, 
-.login-btn:focus {
+.login-btn:focus,
+.change-color:hover,
+.change-color:focus  {
 background: #6c8cff;
+}
+.widget {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.widget-text {
+  font-weight: 400;
+  font-size: 16px;
+ 
+}
+.change-color {
+  max-width: 148px;
+  padding: 8px 16px;
+  background-color: #4e75ff;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
 }
