@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box; 
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 0.04em;
+}
+
+body {
+  margin: 16px;
+  
+  background-color: #fff;
+  color: #2e2f42;
+  line-height: 1.5;
+
+}
+
+.container {
+  border-radius: 8px;
+  padding: 0px;
+  width: 392px;
+}
+
+.item {
+  background-color: #f6f6fe;
+  padding: 16px;
+  margin-bottom: 24px;
+  border-radius: 8px;
+  list-style: none;
+}
+
+.title-item {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.33;
+  
+}
+
+.list-general {
+  list-style: none;
+  padding: 0;
+  margin-top: 16px;
+}
+
+.item-general {
+  font-weight: 400;
+font-size: 16px;  
+  padding: 8px 16px;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
