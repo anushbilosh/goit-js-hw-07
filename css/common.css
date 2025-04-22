@@ -96,6 +96,47 @@ color: #2e2f42;
   line-height: 1.33;
 }
 
-.span-title {
+.login-form {
+  max-width: 360px;
+  padding: 24px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  
+}
 
+.form-lable {
+  display: flex;
+  flex-direction: column;
+  margin-top: 8px;
+  gap: 8px;
+}
+.input-form {
+  padding: 10px 14px;
+  border: 1px solid #808080;
+  border-radius: 4px; 
+font-weight: 400;
+}
+
+.input-form:hover, 
+.input-form:focus {
+border: 1px solid #000;
+}
+.login-btn {
+  max-width: 86px;
+  padding: 8px 16px;
+  background-color: #4e75ff;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+font-weight: 500;
+font-size: 16px;
+margin-top: 16px;
+}
+.login-btn:hover, 
+.login-btn:focus {
+background: #6c8cff;
 }
